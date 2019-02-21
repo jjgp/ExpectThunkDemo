@@ -1,0 +1,30 @@
+PODS:
+  - ReSwift (4.0.1)
+  - ReSwiftThunk (1.1.0):
+    - ReSwift (~> 4.0)
+    - ReSwiftThunk/Core (= 1.1.0)
+  - ReSwiftThunk/Core (1.1.0):
+    - ReSwift (~> 4.0)
+  - ReSwiftThunk/ExpectThunk (1.1.0):
+    - ReSwift (~> 4.0)
+    - ReSwiftThunk/Core
+
+DEPENDENCIES:
+  - ReSwiftThunk (from `../ReSwift-Thunk`)
+  - ReSwiftThunk/ExpectThunk (from `../ReSwift-Thunk`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReSwift
+
+EXTERNAL SOURCES:
+  ReSwiftThunk:
+    :path: "../ReSwift-Thunk"
+
+SPEC CHECKSUMS:
+  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  ReSwiftThunk: 0339421a1711c1ce46b188099778fc3ce5975ce1
+
+PODFILE CHECKSUM: c16975fed018e5b8e769394c354cdd76c3f81279
+
+COCOAPODS: 1.5.3
