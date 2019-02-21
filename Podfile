@@ -6,9 +6,9 @@ target 'ExpectThunkDemo' do
   use_frameworks!
 
   # Pods for ExpectThunkDemo
-  pod 'ReSwiftThunk', :path => '../ReSwift-Thunk'
+  pod 'ReSwiftThunk', :git => 'git@github.com:jjgp/ReSwift-Thunk.git', :branch => 'expect-thunk-proposal'
 end
 
 target 'ExpectThunkDemoTests' do
-  pod 'ReSwiftThunk/ExpectThunk', :path => '../ReSwift-Thunk'
+  pod 'ReSwiftThunk/ExpectThunk', :git => 'git@github.com:jjgp/ReSwift-Thunk.git', :branch => 'expect-thunk-proposal'
 end

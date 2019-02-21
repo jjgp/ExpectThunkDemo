@@ -10,8 +10,8 @@ PODS:
     - ReSwiftThunk/Core
 
 DEPENDENCIES:
-  - ReSwiftThunk (from `../ReSwift-Thunk`)
-  - ReSwiftThunk/ExpectThunk (from `../ReSwift-Thunk`)
+  - "ReSwiftThunk (from `git@github.com:jjgp/ReSwift-Thunk.git`, branch `expect-thunk-proposal`)"
+  - "ReSwiftThunk/ExpectThunk (from `git@github.com:jjgp/ReSwift-Thunk.git`, branch `expect-thunk-proposal`)"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -19,12 +19,18 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   ReSwiftThunk:
-    :path: "../ReSwift-Thunk"
+    :branch: expect-thunk-proposal
+    :git: "git@github.com:jjgp/ReSwift-Thunk.git"
+
+CHECKOUT OPTIONS:
+  ReSwiftThunk:
+    :commit: 063b055ecc148fe8bef61753befc8e6e38a204f1
+    :git: "git@github.com:jjgp/ReSwift-Thunk.git"
 
 SPEC CHECKSUMS:
   ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
-  ReSwiftThunk: 0339421a1711c1ce46b188099778fc3ce5975ce1
+  ReSwiftThunk: 455a8144fe778fb35c5c04c4d8e58c8f6d155ee2
 
-PODFILE CHECKSUM: c16975fed018e5b8e769394c354cdd76c3f81279
+PODFILE CHECKSUM: c0723c8784fec7fc7d3b554d7b002227dc11e605
 
 COCOAPODS: 1.5.3
