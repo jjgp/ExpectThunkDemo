@@ -1,0 +1,6 @@
+module ReSwiftThunk {
+  umbrella header "ReSwiftThunk-Core-ExpectThunk-umbrella.h"
+
+  export *
+  module * { export * }
+}

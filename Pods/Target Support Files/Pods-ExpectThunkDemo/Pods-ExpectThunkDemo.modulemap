@@ -1,0 +1,6 @@
+framework module Pods_ExpectThunkDemo {
+  umbrella header "Pods-ExpectThunkDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
