@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ReSwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char ReSwiftVersionString[];
+FOUNDATION_EXPORT double Pods_ExpectThunkDemo_ExpectThunkDemoTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ExpectThunkDemo_ExpectThunkDemoTestsVersionString[];
 

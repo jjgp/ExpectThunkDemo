@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4269A39A4EAE9AABEDD82DF176EC9331"
-               BuildableName = "libReSwiftThunk-Core-ExpectThunk.a"
-               BlueprintName = "ReSwiftThunk-Core-ExpectThunk"
+               BlueprintIdentifier = "1DDE81F4166900D5B4F84241E76E9208"
+               BuildableName = "libReSwiftThunk.default-ExpectThunk.a"
+               BlueprintName = "ReSwiftThunk.default-ExpectThunk"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

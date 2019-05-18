@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E8A78D39667C67A17F516F3 /* libPods-ExpectThunkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AE7A3CCF11DD72515200B7 /* libPods-ExpectThunkDemo.a */; };
+		96F8950BF4CA8E6378DAE2C2 /* libPods-ExpectThunkDemo-ExpectThunkDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A41ABFC9FB6E9870246BB8 /* libPods-ExpectThunkDemo-ExpectThunkDemoTests.a */; };
 		A402DD2B062C4BB4AEB7DEBD /* libPods-ExpectThunkDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BE0C6341596438B411E092 /* libPods-ExpectThunkDemoTests.a */; };
 		D28DCE7A221CF6B600707E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28DCE79221CF6B600707E3C /* AppDelegate.swift */; };
 		D28DCE7C221CF6B600707E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28DCE7B221CF6B600707E3C /* ViewController.swift */; };
@@ -14,7 +16,6 @@
 		D28DCE81221CF6B700707E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28DCE80221CF6B700707E3C /* Assets.xcassets */; };
 		D28DCE84221CF6B700707E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28DCE82221CF6B700707E3C /* LaunchScreen.storyboard */; };
 		D28DCE8F221CF6B700707E3C /* ExpectThunkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28DCE8E221CF6B700707E3C /* ExpectThunkDemoTests.swift */; };
-		E43050B6AA9D522F79E396FD /* Pods_ExpectThunkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C586394FE8F34E7FE686AF /* Pods_ExpectThunkDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +30,12 @@
 
 /* Begin PBXFileReference section */
 		3ECE769346C188992266EA7A /* Pods-ExpectThunkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectThunkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExpectThunkDemo/Pods-ExpectThunkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4537184B34E102C87FB9837C /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExpectThunkDemo-ExpectThunkDemoTests/Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		51BE0C6341596438B411E092 /* libPods-ExpectThunkDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpectThunkDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6A767F8E1D0209D79B8089 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpectThunkDemo-ExpectThunkDemoTests/Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		71DA6F2EDA02D7B5DF4EC009 /* Pods-ExpectThunkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectThunkDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExpectThunkDemoTests/Pods-ExpectThunkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FE66D3F975F25AB072AB8C8 /* Pods-ExpectThunkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectThunkDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpectThunkDemoTests/Pods-ExpectThunkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2AE7A3CCF11DD72515200B7 /* libPods-ExpectThunkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpectThunkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28DCE76221CF6B600707E3C /* ExpectThunkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpectThunkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28DCE79221CF6B600707E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D28DCE7B221CF6B600707E3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +46,7 @@
 		D28DCE8A221CF6B700707E3C /* ExpectThunkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpectThunkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28DCE8E221CF6B700707E3C /* ExpectThunkDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectThunkDemoTests.swift; sourceTree = "<group>"; };
 		D28DCE90221CF6B700707E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2C586394FE8F34E7FE686AF /* Pods_ExpectThunkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpectThunkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A41ABFC9FB6E9870246BB8 /* libPods-ExpectThunkDemo-ExpectThunkDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpectThunkDemo-ExpectThunkDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C8FB35317DAE76B44EC4A0 /* Pods-ExpectThunkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpectThunkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpectThunkDemo/Pods-ExpectThunkDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E43050B6AA9D522F79E396FD /* Pods_ExpectThunkDemo.framework in Frameworks */,
+				5E8A78D39667C67A17F516F3 /* libPods-ExpectThunkDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A402DD2B062C4BB4AEB7DEBD /* libPods-ExpectThunkDemoTests.a in Frameworks */,
+				96F8950BF4CA8E6378DAE2C2 /* libPods-ExpectThunkDemo-ExpectThunkDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +78,8 @@
 				F0C8FB35317DAE76B44EC4A0 /* Pods-ExpectThunkDemo.release.xcconfig */,
 				71DA6F2EDA02D7B5DF4EC009 /* Pods-ExpectThunkDemoTests.debug.xcconfig */,
 				7FE66D3F975F25AB072AB8C8 /* Pods-ExpectThunkDemoTests.release.xcconfig */,
+				4537184B34E102C87FB9837C /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig */,
+				5F6A767F8E1D0209D79B8089 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -122,8 +129,9 @@
 		FC48E6A624634C47026F1FC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E2C586394FE8F34E7FE686AF /* Pods_ExpectThunkDemo.framework */,
 				51BE0C6341596438B411E092 /* libPods-ExpectThunkDemoTests.a */,
+				B2AE7A3CCF11DD72515200B7 /* libPods-ExpectThunkDemo.a */,
+				E8A41ABFC9FB6E9870246BB8 /* libPods-ExpectThunkDemo-ExpectThunkDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,7 +147,6 @@
 				D28DCE72221CF6B600707E3C /* Sources */,
 				D28DCE73221CF6B600707E3C /* Frameworks */,
 				D28DCE74221CF6B600707E3C /* Resources */,
-				95AE609D796C4084135F999D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,35 +272,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExpectThunkDemoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ExpectThunkDemo-ExpectThunkDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		95AE609D796C4084135F999D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExpectThunkDemo/Pods-ExpectThunkDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReSwift-framework/ReSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/ReSwiftThunk/ReSwiftThunk.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwiftThunk.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExpectThunkDemo/Pods-ExpectThunkDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -502,7 +485,7 @@
 		};
 		D28DCE97221CF6B700707E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71DA6F2EDA02D7B5DF4EC009 /* Pods-ExpectThunkDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 4537184B34E102C87FB9837C /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -523,7 +506,7 @@
 		};
 		D28DCE98221CF6B700707E3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FE66D3F975F25AB072AB8C8 /* Pods-ExpectThunkDemoTests.release.xcconfig */;
+			baseConfigurationReference = 5F6A767F8E1D0209D79B8089 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

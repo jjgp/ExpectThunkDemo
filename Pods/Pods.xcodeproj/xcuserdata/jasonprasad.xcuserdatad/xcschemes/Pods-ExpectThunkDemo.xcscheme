@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CC7EF91FE6288340D0F9048498BAF6CE"
-               BuildableName = "Pods-ExpectThunkDemo.framework"
+               BlueprintIdentifier = "CD74091ED7685D6C4C777FBE76403A1C"
+               BuildableName = "libPods-ExpectThunkDemo.a"
                BlueprintName = "Pods-ExpectThunkDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

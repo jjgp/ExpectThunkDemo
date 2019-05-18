@@ -1,5 +1,6 @@
-framework module ReSwiftThunk {
+module ReSwiftThunk {
   umbrella header "ReSwiftThunk-umbrella.h"
+  exclude header "ReSwiftThunk.default-ExpectThunk-umbrella.h"
 
   export *
   module * { export * }

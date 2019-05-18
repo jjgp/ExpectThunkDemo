@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A96DB0CEB9C4727399FB0B33D18FBB4"
-               BuildableName = "libPods-ExpectThunkDemoTests.a"
-               BlueprintName = "Pods-ExpectThunkDemoTests"
+               BlueprintIdentifier = "31A6FEF1426EDE8E4027763EBDBF1DFF"
+               BuildableName = "libPods-ExpectThunkDemo-ExpectThunkDemoTests.a"
+               BlueprintName = "Pods-ExpectThunkDemo-ExpectThunkDemoTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

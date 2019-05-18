@@ -7,207 +7,166 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01BA8E37469BBF22A053867160E1A411 /* Pods-ExpectThunkDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C20C5611E1CA4E51329E8FDA543C757F /* Pods-ExpectThunkDemoTests-dummy.m */; };
-		02B55B55C22DF7CB5F38A6E6D8DB8C45 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA23A91753DFB2BD4503D6833E947 /* StoreSubscriber.swift */; };
-		0CB73FCD605F6D52CB44452A0342E54B /* ReSwift-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 833B2A30276228EA6D4FBEDA71891806 /* ReSwift-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CEC7E7A3F0B39D3B072C744CB6BB9A7 /* ExpectThunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBCA04DFFC6C27EC5EE0D05950682BD /* ExpectThunk.swift */; };
-		0DCCDC553C0FA2121FA213C257C78D05 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867DA069B79A6319544CB01EA660E7CF /* State.swift */; };
-		0E7A6127F2F5282723D8ACEB239CA62D /* ReSwiftThunk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E7197832C4901AAAA5A2186631AD8F /* ReSwiftThunk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FD7BEC0F08DD3B745BB8D1F373D28F8 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56F0E658A1FFF2BD064952373D48E93 /* Coding.swift */; };
-		11326916346C23C462C8EAF8B8FD53A8 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA18047C4B6E6774A13648C21F2457 /* Action.swift */; };
-		13FE277F0B67D4808B152DC336DC06A4 /* ReSwiftThunk-Core-ExpectThunk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A22EE23EADA783A93F7B116B966862CE /* ReSwiftThunk-Core-ExpectThunk-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1602E99228B5948FDBFE5BE3E2918065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A06CB307CE96E9CB91A77F0AAEB1D4C /* Foundation.framework */; };
-		219C7A341DC7C67F57A2FE48BAE724DC /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95502A877CDDFC4F284C7EFE8451A943 /* TypeHelper.swift */; };
-		24C145106D62FAB8965A0A6963549DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A06CB307CE96E9CB91A77F0AAEB1D4C /* Foundation.framework */; };
-		2CBBC73F25ACB2DF82228F87B4BE2E0C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258AB92B6C1D69131ACE03354D9DFDBF /* Store.swift */; };
-		2DCED3CA53339EC8B866E06FD842F7BE /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95502A877CDDFC4F284C7EFE8451A943 /* TypeHelper.swift */; };
-		3153D0F4C9615ADA10621F630263FAF7 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A203C0AB4D64470E46E08F435C3F /* Assertions.swift */; };
-		33026BB4A11E644F3DBDC05141C96474 /* ReSwiftThunk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F252BB0A1F249D1315A156081FBA7582 /* ReSwiftThunk-dummy.m */; };
-		3B48AFEAC02DD781767619F9D30DE681 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258AB92B6C1D69131ACE03354D9DFDBF /* Store.swift */; };
-		3F3AC33263A1FFC76DB858D90778A36E /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C289076739D19CF798B18AF8CDBCE2C /* Subscription.swift */; };
-		3F9344161AF4A0725F8499D01F4FD736 /* createThunksMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D56225929D9D357EB3866E30710D4C /* createThunksMiddleware.swift */; };
-		43E3D3269B5FFE05E6CD1037A3F0F7EC /* ReSwift-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A67A76238D12EDAB0BFC37346B517F2A /* ReSwift-framework-dummy.m */; };
-		49EED4896EB672D64837E18683862FCE /* createThunksMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D56225929D9D357EB3866E30710D4C /* createThunksMiddleware.swift */; };
-		4BF897A97C56E37208B0E6D7ED01B4C9 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EA23A91753DFB2BD4503D6833E947 /* StoreSubscriber.swift */; };
-		4E78DC93BE7E5D02AC5336632128AACB /* ReSwiftThunk-Core-ExpectThunk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2645A4D1FBD3EF25DAE38D548CEBC20 /* ReSwiftThunk-Core-ExpectThunk-dummy.m */; };
-		4EDD858308FF6EB5687E2C075C423C59 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56F0E658A1FFF2BD064952373D48E93 /* Coding.swift */; };
-		5159273A8380F6A1B082B7A74597768E /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D763DC36CBC6F01753A5BBF34E3114 /* Middleware.swift */; };
-		575B8CE827C86B9E202A529115D971DC /* Thunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8F4358F24F62E82B35BFBDEF08632 /* Thunk.swift */; };
-		5A2B8FA80FA7DF263103FF4906565A75 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F7F18D1C7DFAC333E96A7D90B8E7 /* DispatchingStoreType.swift */; };
-		5C8E414DFCF4B94A33728FE078D77720 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9ED9490CD045CF1B4FF7185661639D /* Reducer.swift */; };
-		64E96FBFA5D8245E37AD8704007BBF79 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F7F18D1C7DFAC333E96A7D90B8E7 /* DispatchingStoreType.swift */; };
-		74C4969AB95DB26B68EB9714DD511445 /* Thunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8F4358F24F62E82B35BFBDEF08632 /* Thunk.swift */; };
-		7A902C811A3C0FAA6F6757FBFD02DC99 /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2CB6BACF3EB57D771BEF112DEE764F7 /* ReSwift.framework */; };
-		84F9A068E1B08A30CFB095DF11713C2C /* ReSwift-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DD4BE7D570D54F48AC29D37AAC2D59 /* ReSwift-library-dummy.m */; };
-		871C8181BEC3DD46680A3C14BBC3DB8E /* Pods-ExpectThunkDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ABD3CFA8C5EB41CDAB14725E69DE39C /* Pods-ExpectThunkDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E3F4532C461F1C1DA23E757CEFFB79D /* ReSwift_Thunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2517C79CC872382C7E397A503221F2 /* ReSwift_Thunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92271F9264CF0B6299CD8FF17DF94272 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9ED9490CD045CF1B4FF7185661639D /* Reducer.swift */; };
-		A9A9DE742A32E3AE92B484E95AB58627 /* Pods-ExpectThunkDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED015284B14BA0729178BC15B144714 /* Pods-ExpectThunkDemo-dummy.m */; };
-		AF68CB53EC933461274CA089A3B2645D /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DECE3E3221922AB9F5F9CA43CC0A3B /* StoreType.swift */; };
-		B2FEAC488BBC82EC8B9A02FCD8E674A5 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D763DC36CBC6F01753A5BBF34E3114 /* Middleware.swift */; };
-		B7C50C70FFFB3EF5C72F498D2975B4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A06CB307CE96E9CB91A77F0AAEB1D4C /* Foundation.framework */; };
-		BBE907CCB5C5A380C4955BB6122EB657 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867DA069B79A6319544CB01EA660E7CF /* State.swift */; };
-		C00D354E5C6DA0BE28A8B3249055F53A /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DECE3E3221922AB9F5F9CA43CC0A3B /* StoreType.swift */; };
-		C43B3F6899446320E9706400EA836686 /* ReSwift_Thunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2517C79CC872382C7E397A503221F2 /* ReSwift_Thunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D922B1D23C0A9EDAC93CC941E106772D /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA18047C4B6E6774A13648C21F2457 /* Action.swift */; };
-		E050E1CC586356CC2A638EA45B69BAC0 /* ReSwift-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B885A57BAC6C5C7EBD73298B0E6E0154 /* ReSwift-library-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E186BA8EACA3CB9718AD648BED89F6F2 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C289076739D19CF798B18AF8CDBCE2C /* Subscription.swift */; };
-		E74AF043F83DA43E27AEE4A1D4F7273F /* Pods-ExpectThunkDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7C338D03B6CE163A0F661D9A36B7E0 /* Pods-ExpectThunkDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF28955E13F88750BB3A8A89B21DF40B /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7A203C0AB4D64470E46E08F435C3F /* Assertions.swift */; };
+		0D3FC866F97656CFF2ABF7F4ADF590C8 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26A99A3137AD1C97300CD4C6645A93 /* Subscription.swift */; };
+		147B4D064EB32EFC0B547D840C83DD7B /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04227E49E510A4061F8507B4691D5B0 /* Middleware.swift */; };
+		18031F5C0CE3B1EEFBAB875693203A4E /* ReSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F320AEC4EC57AFE03A7DB6E10A051C2 /* ReSwift-dummy.m */; };
+		1F7CA5702A9A671839404EDEFDCB2D6A /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A307D0C4A6FE4D9E6C036E615296670E /* DispatchingStoreType.swift */; };
+		4082F4118E16AD6D31F3A81FA9CA08DD /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F805DA6DD159E2B5A5F4CE00EC20E04 /* Action.swift */; };
+		477A6D1555363A7DD8BDA41E6BA9EAA7 /* ReSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C45F1D95B9F7D3E741E6472CAD65EAC5 /* ReSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A4FFE6075EE3274A3B11F9309BE6F31 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E09A77B11629E2E447FAF440707A8D /* State.swift */; };
+		63A271BE01F2E2D74B7B38A0C4E3BDDD /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 321BDCE22CD5463A1089DAE053A1C535 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		678E82FB078F32B0AA56A579710C2E76 /* createThunksMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CD8DC1D1639C61AE5650FB62BD935 /* createThunksMiddleware.swift */; };
+		6E60902B8BEF06FEC1818EE04C8DC5E0 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE0FE19AA832851E1415B8DAB11725 /* StoreSubscriber.swift */; };
+		6F86EBBD7E1576798B63B0BEC9C1CD1C /* Pods-ExpectThunkDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69281E377E26B4396A95F2C628F7DD61 /* Pods-ExpectThunkDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70240565EE2C420C02083921C2568ADE /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738798BEAC07A3DB843DE2B1183E2DB /* TypeHelper.swift */; };
+		8B3CFDDDAE18B4FB8C15FAD27A955A74 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CC6FB1AB51C7326F50E979B8B3300B /* Store.swift */; };
+		8E4A508FCDEF33655337F391F47AA489 /* ReSwiftThunk.default-ExpectThunk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 968044DD41104980996233400B89D02D /* ReSwiftThunk.default-ExpectThunk-dummy.m */; };
+		9854AA028D75C43106CC89B6F4A9CF1B /* Thunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9014C942B526C574B22B61AD0F1FFEC /* Thunk.swift */; };
+		9BA5A4E789D17ABE461604D755E74D73 /* ReSwiftThunk.default-ExpectThunk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1943EC60FCB39EBBCCE930CA942DB01 /* ReSwiftThunk.default-ExpectThunk-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B65CC4ED8DD07D53E6A262C0BB884E7B /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C039DF5C567E960034C84402D925C0 /* Coding.swift */; };
+		B8F5EA67ED00E49F1F8506FC3E705B63 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C556EC1E48EE6FD2BE68D87AB4F23 /* Assertions.swift */; };
+		BDD8AF97F89DB44F496562B4A74FC534 /* ExpectThunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF53D5449C952C2FC1FB277DFA5C3B3 /* ExpectThunk.swift */; };
+		C464B3CA92D2BFAEA829E8DD7B654C1F /* Thunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9014C942B526C574B22B61AD0F1FFEC /* Thunk.swift */; };
+		C4C2E04B6C8E63680AE55E28C34FCF9C /* ReSwift_Thunk.h in Headers */ = {isa = PBXBuildFile; fileRef = AF96CE9F7F9DFBF5E86ED478D924C973 /* ReSwift_Thunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C81F00D85E025410DBD733E7C80FC86E /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A8F2EB85442F26A72E3AD97CB335DD /* StoreType.swift */; };
+		CA9EBD499FCF26151EB666954E611AAD /* ReSwift_Thunk.h in Headers */ = {isa = PBXBuildFile; fileRef = AF96CE9F7F9DFBF5E86ED478D924C973 /* ReSwift_Thunk.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB29CE39FEAAE9519F1C126E3F0F0B48 /* createThunksMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CD8DC1D1639C61AE5650FB62BD935 /* createThunksMiddleware.swift */; };
+		D34B5DA9FEBE5D9A8CC13C1886198AD9 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF9557D48C65805A64E75C9CFC50D3 /* Reducer.swift */; };
+		DADDEF5AD38E35FCE660542DB1808B88 /* ReSwiftThunk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAF291E0D36D459B10696FEFE69D7E5 /* ReSwiftThunk-dummy.m */; };
+		DB04836344C2C99A10B3F2E11C8C6899 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CF893C39F0001D06D580F566996023 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-dummy.m */; };
+		EFC9FF5955775C9275FEFBFB63C8B0A6 /* ReSwiftThunk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D5DF3EF78DF5E2EDC063524371FF17 /* ReSwiftThunk-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA0604374F327B3CE5177CB91840F6AE /* Pods-ExpectThunkDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FE8F9ED44098BE33C9E57AD9F05FFA /* Pods-ExpectThunkDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00792A937E60A4C9EE6A8F83011CA6F7 /* PBXContainerItemProxy */ = {
+		0EB5D97D90133BEC37F98298E82FD7DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 672AA3A841EEDBF9F43A7E18AF7DDF09;
-			remoteInfo = "ReSwift-framework";
+			remoteGlobalIDString = 1DDE81F4166900D5B4F84241E76E9208;
+			remoteInfo = "ReSwiftThunk.default-ExpectThunk";
 		};
-		4E933CBFD31A8C3B6FF45BDC29F38CF4 /* PBXContainerItemProxy */ = {
+		1444D75ED51B0E1019F9E2774CEAD347 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 85FA641846F55BCDB01D41F003E20105;
+			remoteGlobalIDString = 24C2DD33D4191B82E95211DC0212213B;
+			remoteInfo = ReSwift;
+		};
+		15CBE242A3EBC30CBAC4E766B2FFE8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DAD9D2E2D5C63CC4A627E8A1D037ECD;
 			remoteInfo = ReSwiftThunk;
 		};
-		5798DD3CBF5612E48C42ECB8993245E5 /* PBXContainerItemProxy */ = {
+		569F63013E6B5DB2473A4D6CC22016D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4269A39A4EAE9AABEDD82DF176EC9331;
-			remoteInfo = "ReSwiftThunk-Core-ExpectThunk";
+			remoteGlobalIDString = 24C2DD33D4191B82E95211DC0212213B;
+			remoteInfo = ReSwift;
 		};
-		95DA7D9B636F2E3C3B0D39845957ADBD /* PBXContainerItemProxy */ = {
+		6FB543912017E883D919883D640C3407 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 72E5606B60604DFCAE0BE93260BC3493;
-			remoteInfo = "ReSwift-library";
+			remoteGlobalIDString = 24C2DD33D4191B82E95211DC0212213B;
+			remoteInfo = ReSwift;
 		};
-		A033E6BF8991A5D382C359A957E43C94 /* PBXContainerItemProxy */ = {
+		9FB84257A95C9CDEB48A072E6842AE02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 672AA3A841EEDBF9F43A7E18AF7DDF09;
-			remoteInfo = "ReSwift-framework";
-		};
-		EF583DF57A64EDCBCD223EC37B045FAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72E5606B60604DFCAE0BE93260BC3493;
-			remoteInfo = "ReSwift-library";
+			remoteGlobalIDString = 24C2DD33D4191B82E95211DC0212213B;
+			remoteInfo = ReSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C51C35E67279D6F36049C2370EFE11 /* ReSwiftThunk-Core-ExpectThunk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ReSwiftThunk-Core-ExpectThunk.modulemap"; path = "../ReSwiftThunk-Core-ExpectThunk/ReSwiftThunk-Core-ExpectThunk.modulemap"; sourceTree = "<group>"; };
-		032439DF348E70822082F02E1ABD7EFC /* libReSwiftThunk-Core-ExpectThunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libReSwiftThunk-Core-ExpectThunk.a"; path = "libReSwiftThunk-Core-ExpectThunk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11E7197832C4901AAAA5A2186631AD8F /* ReSwiftThunk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwiftThunk-umbrella.h"; sourceTree = "<group>"; };
-		186EA23A91753DFB2BD4503D6833E947 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
-		18DC5739C6DC2AB771B7437DA03B36DA /* Pods_ExpectThunkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExpectThunkDemo.framework; path = "Pods-ExpectThunkDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F352499D80029DC8C6016E1418BF8F5 /* Pods-ExpectThunkDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExpectThunkDemo-Info.plist"; sourceTree = "<group>"; };
-		20E70950DD0F2261210A104BCFCB079D /* ReSwiftThunk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwiftThunk.xcconfig; sourceTree = "<group>"; };
-		218ED9E8E318CFB94F87EE7127168247 /* ReSwift-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ReSwift-library.modulemap"; path = "../ReSwift-library/ReSwift-library.modulemap"; sourceTree = "<group>"; };
-		21DD4BE7D570D54F48AC29D37AAC2D59 /* ReSwift-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ReSwift-library-dummy.m"; path = "../ReSwift-library/ReSwift-library-dummy.m"; sourceTree = "<group>"; };
-		258AB92B6C1D69131ACE03354D9DFDBF /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
-		2DD957B0F5E270A4F0C673503F6C217D /* Pods-ExpectThunkDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExpectThunkDemo.modulemap"; sourceTree = "<group>"; };
-		30AAFDA27AA1177DF42B0931B959EB0A /* ReSwiftThunk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReSwiftThunk-Info.plist"; sourceTree = "<group>"; };
-		3AAB04A0D2FC17FD712D171AC8EDFE23 /* Pods-ExpectThunkDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExpectThunkDemoTests.modulemap"; sourceTree = "<group>"; };
-		432DFEA46489B403E714DFA55B9A232E /* libReSwift-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libReSwift-library.a"; path = "libReSwift-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49F7A203C0AB4D64470E46E08F435C3F /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
-		4ABD3CFA8C5EB41CDAB14725E69DE39C /* Pods-ExpectThunkDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExpectThunkDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		52C4880E3E637409EFB6AA834F0FC695 /* Pods-ExpectThunkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpectThunkDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5457A2B6287E8ECC26837BEA7DBBDD22 /* ReSwift-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ReSwift-library.xcconfig"; path = "../ReSwift-library/ReSwift-library.xcconfig"; sourceTree = "<group>"; };
-		5480BA22FAF91F7841777233870A0766 /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReSwift.framework; path = "ReSwift-framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55C09731568D9C2ED72536C5062FB4A1 /* Pods-ExpectThunkDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExpectThunkDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		56D56225929D9D357EB3866E30710D4C /* createThunksMiddleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = createThunksMiddleware.swift; path = "ReSwift-Thunk/createThunksMiddleware.swift"; sourceTree = "<group>"; };
-		57B707A06C74DABC7FA793BCBC0566F0 /* ReSwiftThunk-Core-ExpectThunk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReSwiftThunk-Core-ExpectThunk-prefix.pch"; path = "../ReSwiftThunk-Core-ExpectThunk/ReSwiftThunk-Core-ExpectThunk-prefix.pch"; sourceTree = "<group>"; };
-		59B5CA5452A17738864CA528526DF579 /* ReSwift-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ReSwift-framework.xcconfig"; sourceTree = "<group>"; };
-		5A06CB307CE96E9CB91A77F0AAEB1D4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5ED015284B14BA0729178BC15B144714 /* Pods-ExpectThunkDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExpectThunkDemo-dummy.m"; sourceTree = "<group>"; };
-		706C09DCBE59DD3F63E4AFBD797DEA28 /* Pods-ExpectThunkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpectThunkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		75BC95554B72C08351ADFE8B342B2EE2 /* Pods-ExpectThunkDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExpectThunkDemo-frameworks.sh"; sourceTree = "<group>"; };
-		77EE202045BE64784E41AE3E6C12F294 /* ReSwift-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ReSwift-framework.modulemap"; sourceTree = "<group>"; };
-		7E77176CB38262B32CCE330A3AE382DD /* Pods-ExpectThunkDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExpectThunkDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F65F88686FA422F207995A4B464567D /* Pods-ExpectThunkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpectThunkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		806F17351703E227B262883028270F48 /* ReSwiftThunk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwiftThunk-prefix.pch"; sourceTree = "<group>"; };
-		833B2A30276228EA6D4FBEDA71891806 /* ReSwift-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-framework-umbrella.h"; sourceTree = "<group>"; };
-		867DA069B79A6319544CB01EA660E7CF /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
-		88BB218894A35C36E15A788A82F2C8EF /* ReSwiftThunk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReSwiftThunk.framework; path = ReSwiftThunk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88DECE3E3221922AB9F5F9CA43CC0A3B /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
-		8A80CC5B7252AB35CF3C4CED2B664985 /* Pods-ExpectThunkDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExpectThunkDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		92208F5A178B5D84B8BF2E5C3886322A /* ReSwift-framework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReSwift-framework-Info.plist"; sourceTree = "<group>"; };
-		95502A877CDDFC4F284C7EFE8451A943 /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
-		98CEF753C0CC5C47C0AF135F6BC2D1E5 /* Pods-ExpectThunkDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExpectThunkDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		9BDA18047C4B6E6774A13648C21F2457 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
-		9C2517C79CC872382C7E397A503221F2 /* ReSwift_Thunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReSwift_Thunk.h; path = "ReSwift-Thunk/ReSwift_Thunk.h"; sourceTree = "<group>"; };
-		9C289076739D19CF798B18AF8CDBCE2C /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
+		009D4E182FF9635281A1275766A9BC6F /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		05D1D525E6BC28A3CF847AFF3F8C33ED /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExpectThunkDemo-ExpectThunkDemoTests.modulemap"; sourceTree = "<group>"; };
+		080F0C067A47324A7F060CA11385227E /* Pods-ExpectThunkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpectThunkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0CBE0FE19AA832851E1415B8DAB11725 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreSubscriber.swift; path = ReSwift/CoreTypes/StoreSubscriber.swift; sourceTree = "<group>"; };
+		1114A5674F22B33FD447BABBF33F7157 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		13FE8F9ED44098BE33C9E57AD9F05FFA /* Pods-ExpectThunkDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExpectThunkDemo-dummy.m"; sourceTree = "<group>"; };
+		25722C521993EB986E5AFB36F3484728 /* ReSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwift.modulemap; sourceTree = "<group>"; };
+		26CC6FB1AB51C7326F50E979B8B3300B /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReSwift/CoreTypes/Store.swift; sourceTree = "<group>"; };
+		2AF53D5449C952C2FC1FB277DFA5C3B3 /* ExpectThunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectThunk.swift; path = "ReSwift-ThunkTests/ExpectThunk.swift"; sourceTree = "<group>"; };
+		321BDCE22CD5463A1089DAE053A1C535 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExpectThunkDemo-ExpectThunkDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		3738798BEAC07A3DB843DE2B1183E2DB /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeHelper.swift; path = ReSwift/Utils/TypeHelper.swift; sourceTree = "<group>"; };
+		39A8F2EB85442F26A72E3AD97CB335DD /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreType.swift; path = ReSwift/CoreTypes/StoreType.swift; sourceTree = "<group>"; };
+		3ECA2A70F5321B99D7E57B58FFBF2671 /* ReSwiftThunk.default-ExpectThunk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ReSwiftThunk.default-ExpectThunk.modulemap"; path = "../ReSwiftThunk.default-ExpectThunk/ReSwiftThunk.default-ExpectThunk.modulemap"; sourceTree = "<group>"; };
+		4EB8C3DDFBD90089E3821145305353E8 /* Pods-ExpectThunkDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExpectThunkDemo.modulemap"; sourceTree = "<group>"; };
+		52CF893C39F0001D06D580F566996023 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExpectThunkDemo-ExpectThunkDemoTests-dummy.m"; sourceTree = "<group>"; };
+		548A1743003BD4FCB28D940318B78557 /* libPods-ExpectThunkDemo-ExpectThunkDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExpectThunkDemo-ExpectThunkDemoTests.a"; path = "libPods-ExpectThunkDemo-ExpectThunkDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58289A8EE830A99CBC50A97488C27D89 /* libReSwiftThunk.default-ExpectThunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libReSwiftThunk.default-ExpectThunk.a"; path = "libReSwiftThunk.default-ExpectThunk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659963C3E4FFCAAA0E306939D9753FE0 /* ReSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-prefix.pch"; sourceTree = "<group>"; };
+		68B2D55342C925BA4039BEA23E134D85 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExpectThunkDemo-ExpectThunkDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		69281E377E26B4396A95F2C628F7DD61 /* Pods-ExpectThunkDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExpectThunkDemo-umbrella.h"; sourceTree = "<group>"; };
+		6BF5E68DFED2850604B5500235BAA3EF /* Pods-ExpectThunkDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExpectThunkDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F805DA6DD159E2B5A5F4CE00EC20E04 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ReSwift/CoreTypes/Action.swift; sourceTree = "<group>"; };
+		71BDF8C2F553AD12F92F6AA5ED2C9E64 /* ReSwiftThunk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwiftThunk.modulemap; sourceTree = "<group>"; };
+		79E09A77B11629E2E447FAF440707A8D /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = ReSwift/CoreTypes/State.swift; sourceTree = "<group>"; };
+		7D049BE40D512AB5A7DD4DD38804E4B9 /* ReSwiftThunk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwiftThunk.xcconfig; sourceTree = "<group>"; };
+		7F320AEC4EC57AFE03A7DB6E10A051C2 /* ReSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-dummy.m"; sourceTree = "<group>"; };
+		8ACC955A926E8F5DA4F51BED0BD4746D /* ReSwiftThunk.default-ExpectThunk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReSwiftThunk.default-ExpectThunk-prefix.pch"; path = "../ReSwiftThunk.default-ExpectThunk/ReSwiftThunk.default-ExpectThunk-prefix.pch"; sourceTree = "<group>"; };
+		949C556EC1E48EE6FD2BE68D87AB4F23 /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assertions.swift; path = ReSwift/Utils/Assertions.swift; sourceTree = "<group>"; };
+		968044DD41104980996233400B89D02D /* ReSwiftThunk.default-ExpectThunk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ReSwiftThunk.default-ExpectThunk-dummy.m"; path = "../ReSwiftThunk.default-ExpectThunk/ReSwiftThunk.default-ExpectThunk-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A22EE23EADA783A93F7B116B966862CE /* ReSwiftThunk-Core-ExpectThunk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReSwiftThunk-Core-ExpectThunk-umbrella.h"; path = "../ReSwiftThunk-Core-ExpectThunk/ReSwiftThunk-Core-ExpectThunk-umbrella.h"; sourceTree = "<group>"; };
-		A67A76238D12EDAB0BFC37346B517F2A /* ReSwift-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwift-framework-dummy.m"; sourceTree = "<group>"; };
-		AA10B50797F950AA69971BBF09A887AA /* Pods-ExpectThunkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpectThunkDemo.release.xcconfig"; sourceTree = "<group>"; };
-		B2CB6BACF3EB57D771BEF112DEE764F7 /* ReSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2D763DC36CBC6F01753A5BBF34E3114 /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
-		B82ED5F03E8ADF72385070A5408613EE /* ReSwiftThunk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReSwiftThunk.modulemap; sourceTree = "<group>"; };
-		B885A57BAC6C5C7EBD73298B0E6E0154 /* ReSwift-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReSwift-library-umbrella.h"; path = "../ReSwift-library/ReSwift-library-umbrella.h"; sourceTree = "<group>"; };
-		BCBCA04DFFC6C27EC5EE0D05950682BD /* ExpectThunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectThunk.swift; path = "ReSwift-ThunkTests/ExpectThunk.swift"; sourceTree = "<group>"; };
-		C20C5611E1CA4E51329E8FDA543C757F /* Pods-ExpectThunkDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExpectThunkDemoTests-dummy.m"; sourceTree = "<group>"; };
-		C4EF68FCBE3161ADBE3F0F294A25D8D9 /* ReSwift-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-framework-prefix.pch"; sourceTree = "<group>"; };
-		CA98FEBD904860EED34ECE8D629AC526 /* ReSwift-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReSwift-library-prefix.pch"; path = "../ReSwift-library/ReSwift-library-prefix.pch"; sourceTree = "<group>"; };
-		D2645A4D1FBD3EF25DAE38D548CEBC20 /* ReSwiftThunk-Core-ExpectThunk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ReSwiftThunk-Core-ExpectThunk-dummy.m"; path = "../ReSwiftThunk-Core-ExpectThunk/ReSwiftThunk-Core-ExpectThunk-dummy.m"; sourceTree = "<group>"; };
-		D56F0E658A1FFF2BD064952373D48E93 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
-		DFDF3D278426A1B11F74DD664A668C6F /* ReSwiftThunk-Core-ExpectThunk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ReSwiftThunk-Core-ExpectThunk.xcconfig"; path = "../ReSwiftThunk-Core-ExpectThunk/ReSwiftThunk-Core-ExpectThunk.xcconfig"; sourceTree = "<group>"; };
-		EF7C338D03B6CE163A0F661D9A36B7E0 /* Pods-ExpectThunkDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExpectThunkDemo-umbrella.h"; sourceTree = "<group>"; };
-		F10D03C1D6C3CCFB4C71113222B7A612 /* libPods-ExpectThunkDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExpectThunkDemoTests.a"; path = "libPods-ExpectThunkDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F252BB0A1F249D1315A156081FBA7582 /* ReSwiftThunk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwiftThunk-dummy.m"; sourceTree = "<group>"; };
-		F485F7F18D1C7DFAC333E96A7D90B8E7 /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
-		FD9ED9490CD045CF1B4FF7185661639D /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
-		FFB8F4358F24F62E82B35BFBDEF08632 /* Thunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thunk.swift; path = "ReSwift-Thunk/Thunk.swift"; sourceTree = "<group>"; };
+		A307D0C4A6FE4D9E6C036E615296670E /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchingStoreType.swift; path = ReSwift/CoreTypes/DispatchingStoreType.swift; sourceTree = "<group>"; };
+		A6D5DF3EF78DF5E2EDC063524371FF17 /* ReSwiftThunk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwiftThunk-umbrella.h"; sourceTree = "<group>"; };
+		A976A1310F46FA104E6B3B862B4AB7DB /* ReSwiftThunk.default-ExpectThunk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ReSwiftThunk.default-ExpectThunk.xcconfig"; path = "../ReSwiftThunk.default-ExpectThunk/ReSwiftThunk.default-ExpectThunk.xcconfig"; sourceTree = "<group>"; };
+		AF96CE9F7F9DFBF5E86ED478D924C973 /* ReSwift_Thunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReSwift_Thunk.h; path = "ReSwift-Thunk/ReSwift_Thunk.h"; sourceTree = "<group>"; };
+		B04227E49E510A4061F8507B4691D5B0 /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Middleware.swift; path = ReSwift/CoreTypes/Middleware.swift; sourceTree = "<group>"; };
+		C0C039DF5C567E960034C84402D925C0 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = ReSwift/Utils/Coding.swift; sourceTree = "<group>"; };
+		C45F1D95B9F7D3E741E6472CAD65EAC5 /* ReSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwift-umbrella.h"; sourceTree = "<group>"; };
+		C75F149C8C0DC3CED82CDF74E226147C /* ReSwiftThunk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReSwiftThunk-prefix.pch"; sourceTree = "<group>"; };
+		C9014C942B526C574B22B61AD0F1FFEC /* Thunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thunk.swift; path = "ReSwift-Thunk/Thunk.swift"; sourceTree = "<group>"; };
+		C98CD8DC1D1639C61AE5650FB62BD935 /* createThunksMiddleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = createThunksMiddleware.swift; path = "ReSwift-Thunk/createThunksMiddleware.swift"; sourceTree = "<group>"; };
+		CB26A99A3137AD1C97300CD4C6645A93 /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = ReSwift/CoreTypes/Subscription.swift; sourceTree = "<group>"; };
+		D4EE6F1CE5DBB25C177ACD18F67D1C30 /* ReSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReSwift.xcconfig; sourceTree = "<group>"; };
+		D7383982B4C318F26EC816516FC6E565 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExpectThunkDemo-ExpectThunkDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7FF9557D48C65805A64E75C9CFC50D3 /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = ReSwift/CoreTypes/Reducer.swift; sourceTree = "<group>"; };
+		DB81A71ACDE86F07ED7FFDEA73DE6B72 /* libReSwiftThunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReSwiftThunk.a; path = libReSwiftThunk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1943EC60FCB39EBBCCE930CA942DB01 /* ReSwiftThunk.default-ExpectThunk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ReSwiftThunk.default-ExpectThunk-umbrella.h"; path = "../ReSwiftThunk.default-ExpectThunk/ReSwiftThunk.default-ExpectThunk-umbrella.h"; sourceTree = "<group>"; };
+		F2FE8F9CD5534217C07A98DE55F31A17 /* libReSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReSwift.a; path = libReSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F316A6B90963E9F1BBFA3FA03232053C /* Pods-ExpectThunkDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExpectThunkDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F637C4D7CFFDCBE16A3D261771F63E47 /* Pods-ExpectThunkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpectThunkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5E5B4A44D2DC809D7F1364F07EF243 /* libPods-ExpectThunkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExpectThunkDemo.a"; path = "libPods-ExpectThunkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAF291E0D36D459B10696FEFE69D7E5 /* ReSwiftThunk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReSwiftThunk-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03A479340586EA029A47067A5291D66B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7C50C70FFFB3EF5C72F498D2975B4EA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EF6EF762E5BBD2D610FE36B2B18D1BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24C145106D62FAB8965A0A6963549DAD /* Foundation.framework in Frameworks */,
-				7A902C811A3C0FAA6F6757FBFD02DC99 /* ReSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174B4A44BA24D343CAC99CED1137EF5E /* Frameworks */ = {
+		00A8EB97264A60D91308D682CD1B9C43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CB24548D695ECA9CF4B93A386619ADF /* Frameworks */ = {
+		5E17C99491462EA3D8EE4DEC47EAF858 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87FA75EB1A641A75738C6DC46ABB218C /* Frameworks */ = {
+		5F4AEA6FF778AB1E8AB82D216F32F82E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1602E99228B5948FDBFE5BE3E2918065 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E14E749CBB4F95709C8EE4F21925489C /* Frameworks */ = {
+		6F323A35986D4D27E24CDF49318FF8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C7BF80901956824F9B8DC2EF24413E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,117 +176,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0326898B7A17277F2263C87AA98EC9C5 /* ReSwiftThunk */ = {
+		0C3EA783459282B376A0C3D6EA2F74D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6743A781F9744C3BBB36ADD66F245CE9 /* Core */,
-				1674CAFAC747FACB160CF7B4CE51BBE6 /* ExpectThunk */,
-				76BF3005F1D907A2F3B6C5989A4BE925 /* Support Files */,
+				FB5E5B4A44D2DC809D7F1364F07EF243 /* libPods-ExpectThunkDemo.a */,
+				548A1743003BD4FCB28D940318B78557 /* libPods-ExpectThunkDemo-ExpectThunkDemoTests.a */,
+				F2FE8F9CD5534217C07A98DE55F31A17 /* libReSwift.a */,
+				DB81A71ACDE86F07ED7FFDEA73DE6B72 /* libReSwiftThunk.a */,
+				58289A8EE830A99CBC50A97488C27D89 /* libReSwiftThunk.default-ExpectThunk.a */,
 			);
-			name = ReSwiftThunk;
-			path = ReSwiftThunk;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1674CAFAC747FACB160CF7B4CE51BBE6 /* ExpectThunk */ = {
+		29FABE2AB53B3381CA8255197F3F1CCA /* ExpectThunk */ = {
 			isa = PBXGroup;
 			children = (
-				BCBCA04DFFC6C27EC5EE0D05950682BD /* ExpectThunk.swift */,
+				2AF53D5449C952C2FC1FB277DFA5C3B3 /* ExpectThunk.swift */,
 			);
 			name = ExpectThunk;
 			sourceTree = "<group>";
 		};
-		195573816374BB50DD14276CC6D4CF42 /* Frameworks */ = {
+		2EC20A9A77A6140F2E6029EADF8463AE /* ReSwift */ = {
 			isa = PBXGroup;
 			children = (
-				B2CB6BACF3EB57D771BEF112DEE764F7 /* ReSwift.framework */,
-				56C2C367CCD2746760CBFD5A914866CF /* iOS */,
+				6F805DA6DD159E2B5A5F4CE00EC20E04 /* Action.swift */,
+				949C556EC1E48EE6FD2BE68D87AB4F23 /* Assertions.swift */,
+				C0C039DF5C567E960034C84402D925C0 /* Coding.swift */,
+				A307D0C4A6FE4D9E6C036E615296670E /* DispatchingStoreType.swift */,
+				B04227E49E510A4061F8507B4691D5B0 /* Middleware.swift */,
+				D7FF9557D48C65805A64E75C9CFC50D3 /* Reducer.swift */,
+				79E09A77B11629E2E447FAF440707A8D /* State.swift */,
+				26CC6FB1AB51C7326F50E979B8B3300B /* Store.swift */,
+				0CBE0FE19AA832851E1415B8DAB11725 /* StoreSubscriber.swift */,
+				39A8F2EB85442F26A72E3AD97CB335DD /* StoreType.swift */,
+				CB26A99A3137AD1C97300CD4C6645A93 /* Subscription.swift */,
+				3738798BEAC07A3DB843DE2B1183E2DB /* TypeHelper.swift */,
+				580543454CD0AC9438EC8BB53584C9A2 /* Support Files */,
 			);
-			name = Frameworks;
+			name = ReSwift;
+			path = ReSwift;
 			sourceTree = "<group>";
 		};
-		2787622AC7CC5D6935E9FD948F5B4366 /* Pods-ExpectThunkDemo */ = {
+		4DAE4CBEAA812CA815A2FAF507F12F90 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2DD957B0F5E270A4F0C673503F6C217D /* Pods-ExpectThunkDemo.modulemap */,
-				7E77176CB38262B32CCE330A3AE382DD /* Pods-ExpectThunkDemo-acknowledgements.markdown */,
-				98CEF753C0CC5C47C0AF135F6BC2D1E5 /* Pods-ExpectThunkDemo-acknowledgements.plist */,
-				5ED015284B14BA0729178BC15B144714 /* Pods-ExpectThunkDemo-dummy.m */,
-				75BC95554B72C08351ADFE8B342B2EE2 /* Pods-ExpectThunkDemo-frameworks.sh */,
-				1F352499D80029DC8C6016E1418BF8F5 /* Pods-ExpectThunkDemo-Info.plist */,
-				EF7C338D03B6CE163A0F661D9A36B7E0 /* Pods-ExpectThunkDemo-umbrella.h */,
-				52C4880E3E637409EFB6AA834F0FC695 /* Pods-ExpectThunkDemo.debug.xcconfig */,
-				AA10B50797F950AA69971BBF09A887AA /* Pods-ExpectThunkDemo.release.xcconfig */,
+				BAEBD4BFB99BBDB855D673092F2ABE42 /* Pods-ExpectThunkDemo */,
+				EAF23F4F8850E06E340548493F7FBE77 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests */,
 			);
-			name = "Pods-ExpectThunkDemo";
-			path = "Target Support Files/Pods-ExpectThunkDemo";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2BB26427139F2EAF86F53A1ABC8EC90F /* Support Files */ = {
+		580543454CD0AC9438EC8BB53584C9A2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				77EE202045BE64784E41AE3E6C12F294 /* ReSwift-framework.modulemap */,
-				59B5CA5452A17738864CA528526DF579 /* ReSwift-framework.xcconfig */,
-				A67A76238D12EDAB0BFC37346B517F2A /* ReSwift-framework-dummy.m */,
-				92208F5A178B5D84B8BF2E5C3886322A /* ReSwift-framework-Info.plist */,
-				C4EF68FCBE3161ADBE3F0F294A25D8D9 /* ReSwift-framework-prefix.pch */,
-				833B2A30276228EA6D4FBEDA71891806 /* ReSwift-framework-umbrella.h */,
-				218ED9E8E318CFB94F87EE7127168247 /* ReSwift-library.modulemap */,
-				5457A2B6287E8ECC26837BEA7DBBDD22 /* ReSwift-library.xcconfig */,
-				21DD4BE7D570D54F48AC29D37AAC2D59 /* ReSwift-library-dummy.m */,
-				CA98FEBD904860EED34ECE8D629AC526 /* ReSwift-library-prefix.pch */,
-				B885A57BAC6C5C7EBD73298B0E6E0154 /* ReSwift-library-umbrella.h */,
+				25722C521993EB986E5AFB36F3484728 /* ReSwift.modulemap */,
+				D4EE6F1CE5DBB25C177ACD18F67D1C30 /* ReSwift.xcconfig */,
+				7F320AEC4EC57AFE03A7DB6E10A051C2 /* ReSwift-dummy.m */,
+				659963C3E4FFCAAA0E306939D9753FE0 /* ReSwift-prefix.pch */,
+				C45F1D95B9F7D3E741E6472CAD65EAC5 /* ReSwift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ReSwift-framework";
+			path = "../Target Support Files/ReSwift";
 			sourceTree = "<group>";
 		};
-		56C2C367CCD2746760CBFD5A914866CF /* iOS */ = {
+		699F5F8CDFE2CFC2CD479D67848E7AE4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5A06CB307CE96E9CB91A77F0AAEB1D4C /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6743A781F9744C3BBB36ADD66F245CE9 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				56D56225929D9D357EB3866E30710D4C /* createThunksMiddleware.swift */,
-				9C2517C79CC872382C7E397A503221F2 /* ReSwift_Thunk.h */,
-				FFB8F4358F24F62E82B35BFBDEF08632 /* Thunk.swift */,
+				C98CD8DC1D1639C61AE5650FB62BD935 /* createThunksMiddleware.swift */,
+				AF96CE9F7F9DFBF5E86ED478D924C973 /* ReSwift_Thunk.h */,
+				C9014C942B526C574B22B61AD0F1FFEC /* Thunk.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		6DDA5BE0314CED249BC11F4260C94AB2 /* Pods-ExpectThunkDemoTests */ = {
+		80342875BD1E13FB6F4B40648D5778E6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3AAB04A0D2FC17FD712D171AC8EDFE23 /* Pods-ExpectThunkDemoTests.modulemap */,
-				8A80CC5B7252AB35CF3C4CED2B664985 /* Pods-ExpectThunkDemoTests-acknowledgements.markdown */,
-				55C09731568D9C2ED72536C5062FB4A1 /* Pods-ExpectThunkDemoTests-acknowledgements.plist */,
-				C20C5611E1CA4E51329E8FDA543C757F /* Pods-ExpectThunkDemoTests-dummy.m */,
-				4ABD3CFA8C5EB41CDAB14725E69DE39C /* Pods-ExpectThunkDemoTests-umbrella.h */,
-				706C09DCBE59DD3F63E4AFBD797DEA28 /* Pods-ExpectThunkDemoTests.debug.xcconfig */,
-				7F65F88686FA422F207995A4B464567D /* Pods-ExpectThunkDemoTests.release.xcconfig */,
-			);
-			name = "Pods-ExpectThunkDemoTests";
-			path = "Target Support Files/Pods-ExpectThunkDemoTests";
-			sourceTree = "<group>";
-		};
-		76BF3005F1D907A2F3B6C5989A4BE925 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B82ED5F03E8ADF72385070A5408613EE /* ReSwiftThunk.modulemap */,
-				20E70950DD0F2261210A104BCFCB079D /* ReSwiftThunk.xcconfig */,
-				02C51C35E67279D6F36049C2370EFE11 /* ReSwiftThunk-Core-ExpectThunk.modulemap */,
-				DFDF3D278426A1B11F74DD664A668C6F /* ReSwiftThunk-Core-ExpectThunk.xcconfig */,
-				D2645A4D1FBD3EF25DAE38D548CEBC20 /* ReSwiftThunk-Core-ExpectThunk-dummy.m */,
-				57B707A06C74DABC7FA793BCBC0566F0 /* ReSwiftThunk-Core-ExpectThunk-prefix.pch */,
-				A22EE23EADA783A93F7B116B966862CE /* ReSwiftThunk-Core-ExpectThunk-umbrella.h */,
-				F252BB0A1F249D1315A156081FBA7582 /* ReSwiftThunk-dummy.m */,
-				30AAFDA27AA1177DF42B0931B959EB0A /* ReSwiftThunk-Info.plist */,
-				806F17351703E227B262883028270F48 /* ReSwiftThunk-prefix.pch */,
-				11E7197832C4901AAAA5A2186631AD8F /* ReSwiftThunk-umbrella.h */,
+				71BDF8C2F553AD12F92F6AA5ED2C9E64 /* ReSwiftThunk.modulemap */,
+				7D049BE40D512AB5A7DD4DD38804E4B9 /* ReSwiftThunk.xcconfig */,
+				FEAF291E0D36D459B10696FEFE69D7E5 /* ReSwiftThunk-dummy.m */,
+				C75F149C8C0DC3CED82CDF74E226147C /* ReSwiftThunk-prefix.pch */,
+				A6D5DF3EF78DF5E2EDC063524371FF17 /* ReSwiftThunk-umbrella.h */,
+				3ECA2A70F5321B99D7E57B58FFBF2671 /* ReSwiftThunk.default-ExpectThunk.modulemap */,
+				A976A1310F46FA104E6B3B862B4AB7DB /* ReSwiftThunk.default-ExpectThunk.xcconfig */,
+				968044DD41104980996233400B89D02D /* ReSwiftThunk.default-ExpectThunk-dummy.m */,
+				8ACC955A926E8F5DA4F51BED0BD4746D /* ReSwiftThunk.default-ExpectThunk-prefix.pch */,
+				E1943EC60FCB39EBBCCE930CA942DB01 /* ReSwiftThunk.default-ExpectThunk-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ReSwiftThunk";
@@ -336,234 +270,212 @@
 		848AB56650A764B85D91C736F408470A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F0BFDD26EDC0AE1A44A1F86F2E8DF5D1 /* ReSwift */,
-				0326898B7A17277F2263C87AA98EC9C5 /* ReSwiftThunk */,
+				2EC20A9A77A6140F2E6029EADF8463AE /* ReSwift */,
+				D602E668A76D60405B3814ADD9DE8B64 /* ReSwiftThunk */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		89D8D6B5B9DB749BA357A12AA3D31D02 /* Products */ = {
+		BAEBD4BFB99BBDB855D673092F2ABE42 /* Pods-ExpectThunkDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F10D03C1D6C3CCFB4C71113222B7A612 /* libPods-ExpectThunkDemoTests.a */,
-				432DFEA46489B403E714DFA55B9A232E /* libReSwift-library.a */,
-				032439DF348E70822082F02E1ABD7EFC /* libReSwiftThunk-Core-ExpectThunk.a */,
-				18DC5739C6DC2AB771B7437DA03B36DA /* Pods_ExpectThunkDemo.framework */,
-				5480BA22FAF91F7841777233870A0766 /* ReSwift.framework */,
-				88BB218894A35C36E15A788A82F2C8EF /* ReSwiftThunk.framework */,
+				4EB8C3DDFBD90089E3821145305353E8 /* Pods-ExpectThunkDemo.modulemap */,
+				6BF5E68DFED2850604B5500235BAA3EF /* Pods-ExpectThunkDemo-acknowledgements.markdown */,
+				F316A6B90963E9F1BBFA3FA03232053C /* Pods-ExpectThunkDemo-acknowledgements.plist */,
+				13FE8F9ED44098BE33C9E57AD9F05FFA /* Pods-ExpectThunkDemo-dummy.m */,
+				69281E377E26B4396A95F2C628F7DD61 /* Pods-ExpectThunkDemo-umbrella.h */,
+				F637C4D7CFFDCBE16A3D261771F63E47 /* Pods-ExpectThunkDemo.debug.xcconfig */,
+				080F0C067A47324A7F060CA11385227E /* Pods-ExpectThunkDemo.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B0BC352599EA37ABCCCAFC026CD9293A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2787622AC7CC5D6935E9FD948F5B4366 /* Pods-ExpectThunkDemo */,
-				6DDA5BE0314CED249BC11F4260C94AB2 /* Pods-ExpectThunkDemoTests */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-ExpectThunkDemo";
+			path = "Target Support Files/Pods-ExpectThunkDemo";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				195573816374BB50DD14276CC6D4CF42 /* Frameworks */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				848AB56650A764B85D91C736F408470A /* Pods */,
-				89D8D6B5B9DB749BA357A12AA3D31D02 /* Products */,
-				B0BC352599EA37ABCCCAFC026CD9293A /* Targets Support Files */,
+				0C3EA783459282B376A0C3D6EA2F74D2 /* Products */,
+				4DAE4CBEAA812CA815A2FAF507F12F90 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F0BFDD26EDC0AE1A44A1F86F2E8DF5D1 /* ReSwift */ = {
+		D602E668A76D60405B3814ADD9DE8B64 /* ReSwiftThunk */ = {
 			isa = PBXGroup;
 			children = (
-				9BDA18047C4B6E6774A13648C21F2457 /* Action.swift */,
-				49F7A203C0AB4D64470E46E08F435C3F /* Assertions.swift */,
-				D56F0E658A1FFF2BD064952373D48E93 /* Coding.swift */,
-				F485F7F18D1C7DFAC333E96A7D90B8E7 /* DispatchingStoreType.swift */,
-				B2D763DC36CBC6F01753A5BBF34E3114 /* Middleware.swift */,
-				FD9ED9490CD045CF1B4FF7185661639D /* Reducer.swift */,
-				867DA069B79A6319544CB01EA660E7CF /* State.swift */,
-				258AB92B6C1D69131ACE03354D9DFDBF /* Store.swift */,
-				186EA23A91753DFB2BD4503D6833E947 /* StoreSubscriber.swift */,
-				88DECE3E3221922AB9F5F9CA43CC0A3B /* StoreType.swift */,
-				9C289076739D19CF798B18AF8CDBCE2C /* Subscription.swift */,
-				95502A877CDDFC4F284C7EFE8451A943 /* TypeHelper.swift */,
-				2BB26427139F2EAF86F53A1ABC8EC90F /* Support Files */,
+				699F5F8CDFE2CFC2CD479D67848E7AE4 /* Core */,
+				29FABE2AB53B3381CA8255197F3F1CCA /* ExpectThunk */,
+				80342875BD1E13FB6F4B40648D5778E6 /* Support Files */,
 			);
-			name = ReSwift;
-			path = ReSwift;
+			name = ReSwiftThunk;
+			path = ReSwiftThunk;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAF23F4F8850E06E340548493F7FBE77 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				05D1D525E6BC28A3CF847AFF3F8C33ED /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.modulemap */,
+				D7383982B4C318F26EC816516FC6E565 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-acknowledgements.markdown */,
+				68B2D55342C925BA4039BEA23E134D85 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-acknowledgements.plist */,
+				52CF893C39F0001D06D580F566996023 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-dummy.m */,
+				321BDCE22CD5463A1089DAE053A1C535 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-umbrella.h */,
+				009D4E182FF9635281A1275766A9BC6F /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig */,
+				1114A5674F22B33FD447BABBF33F7157 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig */,
+			);
+			name = "Pods-ExpectThunkDemo-ExpectThunkDemoTests";
+			path = "Target Support Files/Pods-ExpectThunkDemo-ExpectThunkDemoTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2F597FC6A0BD5A754BEF7269DE5A9D19 /* Headers */ = {
+		6308BA01325ED5B7131602AA366CA42C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				871C8181BEC3DD46680A3C14BBC3DB8E /* Pods-ExpectThunkDemoTests-umbrella.h in Headers */,
+				6F86EBBD7E1576798B63B0BEC9C1CD1C /* Pods-ExpectThunkDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B07A22CF5E916F24B96E2DB7AAD20A8 /* Headers */ = {
+		846050C9729FAB66B4A2FF7972D49E46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E050E1CC586356CC2A638EA45B69BAC0 /* ReSwift-library-umbrella.h in Headers */,
+				C4C2E04B6C8E63680AE55E28C34FCF9C /* ReSwift_Thunk.h in Headers */,
+				9BA5A4E789D17ABE461604D755E74D73 /* ReSwiftThunk.default-ExpectThunk-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E2C5F4B86B03C2C23B10DAE0881D484 /* Headers */ = {
+		99A081E4C0FFF4DBA4ECEE0F12D1FBA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43B3F6899446320E9706400EA836686 /* ReSwift_Thunk.h in Headers */,
-				13FE277F0B67D4808B152DC336DC06A4 /* ReSwiftThunk-Core-ExpectThunk-umbrella.h in Headers */,
+				63A271BE01F2E2D74B7B38A0C4E3BDDD /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80DEB5910B09895DF984638CAE7EAA07 /* Headers */ = {
+		EDE012381C0145C8C1D1726763B9DDD1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E74AF043F83DA43E27AEE4A1D4F7273F /* Pods-ExpectThunkDemo-umbrella.h in Headers */,
+				477A6D1555363A7DD8BDA41E6BA9EAA7 /* ReSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B5A8A9883A83DAE75EFE63417B5B285 /* Headers */ = {
+		EE14DDA30DC687609766A8DE46C91059 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3F4532C461F1C1DA23E757CEFFB79D /* ReSwift_Thunk.h in Headers */,
-				0E7A6127F2F5282723D8ACEB239CA62D /* ReSwiftThunk-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5DEFA46A54BA8A132FB71571F35C05B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CB73FCD605F6D52CB44452A0342E54B /* ReSwift-framework-umbrella.h in Headers */,
+				CA9EBD499FCF26151EB666954E611AAD /* ReSwift_Thunk.h in Headers */,
+				EFC9FF5955775C9275FEFBFB63C8B0A6 /* ReSwiftThunk-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4269A39A4EAE9AABEDD82DF176EC9331 /* ReSwiftThunk-Core-ExpectThunk */ = {
+		0DAD9D2E2D5C63CC4A627E8A1D037ECD /* ReSwiftThunk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 622AA47EF2C9F9239ADDD01DFAAC3AF6 /* Build configuration list for PBXNativeTarget "ReSwiftThunk-Core-ExpectThunk" */;
+			buildConfigurationList = A0E899B24F6195D73822E2530F27C2C9 /* Build configuration list for PBXNativeTarget "ReSwiftThunk" */;
 			buildPhases = (
-				6E2C5F4B86B03C2C23B10DAE0881D484 /* Headers */,
-				283BE19B597CF685BF1C221DC0692051 /* Sources */,
-				E14E749CBB4F95709C8EE4F21925489C /* Frameworks */,
-				C6BB9F5BC75CA8B85C96F22E13FAFD46 /* Copy generated compatibility header */,
+				EE14DDA30DC687609766A8DE46C91059 /* Headers */,
+				622E74A433B0D66748BD6F7F1CD7241E /* Sources */,
+				5E17C99491462EA3D8EE4DEC47EAF858 /* Frameworks */,
+				B44ECB7D7E63FB73BB35F2A0BFDDBB28 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B7A245C1F1C4F48A87CC5836EB06177E /* PBXTargetDependency */,
-			);
-			name = "ReSwiftThunk-Core-ExpectThunk";
-			productName = "ReSwiftThunk-Core-ExpectThunk";
-			productReference = 032439DF348E70822082F02E1ABD7EFC /* libReSwiftThunk-Core-ExpectThunk.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		672AA3A841EEDBF9F43A7E18AF7DDF09 /* ReSwift-framework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E4CA21291E15A5319E3CA6B48284C10 /* Build configuration list for PBXNativeTarget "ReSwift-framework" */;
-			buildPhases = (
-				F5DEFA46A54BA8A132FB71571F35C05B /* Headers */,
-				CED09FF318D7A0D39D90FC66236216CE /* Sources */,
-				03A479340586EA029A47067A5291D66B /* Frameworks */,
-				81DA8542F66AE59BA038D22890803982 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ReSwift-framework";
-			productName = "ReSwift-framework";
-			productReference = 5480BA22FAF91F7841777233870A0766 /* ReSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		72E5606B60604DFCAE0BE93260BC3493 /* ReSwift-library */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DB81CBB8567D170C9307A4D6C375E971 /* Build configuration list for PBXNativeTarget "ReSwift-library" */;
-			buildPhases = (
-				6B07A22CF5E916F24B96E2DB7AAD20A8 /* Headers */,
-				A2E70D5BD050A641D421D934355FAC53 /* Sources */,
-				174B4A44BA24D343CAC99CED1137EF5E /* Frameworks */,
-				CCA43917EAACE742ADD1E35EE9BC490C /* Copy generated compatibility header */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ReSwift-library";
-			productName = "ReSwift-library";
-			productReference = 432DFEA46489B403E714DFA55B9A232E /* libReSwift-library.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		85FA641846F55BCDB01D41F003E20105 /* ReSwiftThunk */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7FF918B6579283CD150D9302938312F3 /* Build configuration list for PBXNativeTarget "ReSwiftThunk" */;
-			buildPhases = (
-				9B5A8A9883A83DAE75EFE63417B5B285 /* Headers */,
-				BF88B9356144996FF614922B7144BF25 /* Sources */,
-				0EF6EF762E5BBD2D610FE36B2B18D1BA /* Frameworks */,
-				F317DCD92F31C11E7B33C486F6133DB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA7B31FAA127C1CFE9A0C9A8D965A317 /* PBXTargetDependency */,
+				D1D66E1B46A383AF64F77347BA532E8E /* PBXTargetDependency */,
 			);
 			name = ReSwiftThunk;
 			productName = ReSwiftThunk;
-			productReference = 88BB218894A35C36E15A788A82F2C8EF /* ReSwiftThunk.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9A96DB0CEB9C4727399FB0B33D18FBB4 /* Pods-ExpectThunkDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4921DEFB42C8121082B9518E9905AC6 /* Build configuration list for PBXNativeTarget "Pods-ExpectThunkDemoTests" */;
-			buildPhases = (
-				2F597FC6A0BD5A754BEF7269DE5A9D19 /* Headers */,
-				86772C7FEB7370FE8E3D4CE29D23E2D7 /* Sources */,
-				3CB24548D695ECA9CF4B93A386619ADF /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A570A4A5E4A5983C7686CCEAB69F244 /* PBXTargetDependency */,
-				C377E4DA6C81E515752A720112A0CAD4 /* PBXTargetDependency */,
-			);
-			name = "Pods-ExpectThunkDemoTests";
-			productName = "Pods-ExpectThunkDemoTests";
-			productReference = F10D03C1D6C3CCFB4C71113222B7A612 /* libPods-ExpectThunkDemoTests.a */;
+			productReference = DB81A71ACDE86F07ED7FFDEA73DE6B72 /* libReSwiftThunk.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		CC7EF91FE6288340D0F9048498BAF6CE /* Pods-ExpectThunkDemo */ = {
+		1DDE81F4166900D5B4F84241E76E9208 /* ReSwiftThunk.default-ExpectThunk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF33CDF962B68DDE49E961AB84DEA84D /* Build configuration list for PBXNativeTarget "Pods-ExpectThunkDemo" */;
+			buildConfigurationList = EBA4D64B5381CD939E5F2BB6E9C73F3C /* Build configuration list for PBXNativeTarget "ReSwiftThunk.default-ExpectThunk" */;
 			buildPhases = (
-				80DEB5910B09895DF984638CAE7EAA07 /* Headers */,
-				DEE8E05860033C9AC64B44566526ABB3 /* Sources */,
-				87FA75EB1A641A75738C6DC46ABB218C /* Frameworks */,
-				0BDFDDF11D5F15F56F27EA3CEEBDC45B /* Resources */,
+				846050C9729FAB66B4A2FF7972D49E46 /* Headers */,
+				716E2CC58DA6EED837380F675847B5A6 /* Sources */,
+				5F4AEA6FF778AB1E8AB82D216F32F82E /* Frameworks */,
+				E13F935F89E9BFA9D89F03CC06046E5D /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				10903296F84B36030EAFF6328A4C6D6A /* PBXTargetDependency */,
-				292C9F07F0B3649BE9925B5E9B716B81 /* PBXTargetDependency */,
+				2393B930B582BE1D74ED3185812E47F9 /* PBXTargetDependency */,
+			);
+			name = "ReSwiftThunk.default-ExpectThunk";
+			productName = "ReSwiftThunk.default-ExpectThunk";
+			productReference = 58289A8EE830A99CBC50A97488C27D89 /* libReSwiftThunk.default-ExpectThunk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		24C2DD33D4191B82E95211DC0212213B /* ReSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4CFD1823FA9C48627A85E3E2079682 /* Build configuration list for PBXNativeTarget "ReSwift" */;
+			buildPhases = (
+				EDE012381C0145C8C1D1726763B9DDD1 /* Headers */,
+				2E3DEFA2D4F55A9D877CBAC5E1C75847 /* Sources */,
+				B4C7BF80901956824F9B8DC2EF24413E /* Frameworks */,
+				26EE49D14B14D3416B908157302AD501 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReSwift;
+			productName = ReSwift;
+			productReference = F2FE8F9CD5534217C07A98DE55F31A17 /* libReSwift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		31A6FEF1426EDE8E4027763EBDBF1DFF /* Pods-ExpectThunkDemo-ExpectThunkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3080D795734E730931365B31793229 /* Build configuration list for PBXNativeTarget "Pods-ExpectThunkDemo-ExpectThunkDemoTests" */;
+			buildPhases = (
+				99A081E4C0FFF4DBA4ECEE0F12D1FBA1 /* Headers */,
+				BED3D5ABE0A2E30A5E32B99472EBC70C /* Sources */,
+				00A8EB97264A60D91308D682CD1B9C43 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBE2FE4B1BA23F60A129D8059DCEDD2 /* PBXTargetDependency */,
+				EE2E7E14BA9C83AAC6175401F3E7B727 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExpectThunkDemo-ExpectThunkDemoTests";
+			productName = "Pods-ExpectThunkDemo-ExpectThunkDemoTests";
+			productReference = 548A1743003BD4FCB28D940318B78557 /* libPods-ExpectThunkDemo-ExpectThunkDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD74091ED7685D6C4C777FBE76403A1C /* Pods-ExpectThunkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDCE514372EC139D8BAC9A9F05A199B /* Build configuration list for PBXNativeTarget "Pods-ExpectThunkDemo" */;
+			buildPhases = (
+				6308BA01325ED5B7131602AA366CA42C /* Headers */,
+				F6C22B22743A865E31A6B3A65DF675A9 /* Sources */,
+				6F323A35986D4D27E24CDF49318FF8EE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6C8CFE3F6988E67BAD97599FD643423 /* PBXTargetDependency */,
+				A23AB773D8F2DD9A89D3467473813742 /* PBXTargetDependency */,
 			);
 			name = "Pods-ExpectThunkDemo";
 			productName = "Pods-ExpectThunkDemo";
-			productReference = 18DC5739C6DC2AB771B7437DA03B36DA /* Pods_ExpectThunkDemo.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = FB5E5B4A44D2DC809D7F1364F07EF243 /* libPods-ExpectThunkDemo.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -582,46 +494,21 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 89D8D6B5B9DB749BA357A12AA3D31D02 /* Products */;
+			productRefGroup = 0C3EA783459282B376A0C3D6EA2F74D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC7EF91FE6288340D0F9048498BAF6CE /* Pods-ExpectThunkDemo */,
-				9A96DB0CEB9C4727399FB0B33D18FBB4 /* Pods-ExpectThunkDemoTests */,
-				672AA3A841EEDBF9F43A7E18AF7DDF09 /* ReSwift-framework */,
-				72E5606B60604DFCAE0BE93260BC3493 /* ReSwift-library */,
-				85FA641846F55BCDB01D41F003E20105 /* ReSwiftThunk */,
-				4269A39A4EAE9AABEDD82DF176EC9331 /* ReSwiftThunk-Core-ExpectThunk */,
+				CD74091ED7685D6C4C777FBE76403A1C /* Pods-ExpectThunkDemo */,
+				31A6FEF1426EDE8E4027763EBDBF1DFF /* Pods-ExpectThunkDemo-ExpectThunkDemoTests */,
+				24C2DD33D4191B82E95211DC0212213B /* ReSwift */,
+				0DAD9D2E2D5C63CC4A627E8A1D037ECD /* ReSwiftThunk */,
+				1DDE81F4166900D5B4F84241E76E9208 /* ReSwiftThunk.default-ExpectThunk */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0BDFDDF11D5F15F56F27EA3CEEBDC45B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81DA8542F66AE59BA038D22890803982 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F317DCD92F31C11E7B33C486F6133DB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXShellScriptBuildPhase section */
-		C6BB9F5BC75CA8B85C96F22E13FAFD46 /* Copy generated compatibility header */ = {
+		26EE49D14B14D3416B908157302AD501 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -630,22 +517,22 @@
 			);
 			inputPaths = (
 				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk-Core-ExpectThunk.modulemap",
-				"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk-Core-ExpectThunk-umbrella.h",
+				"${PODS_ROOT}/Headers/Public/ReSwift/ReSwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/ReSwift/ReSwift-umbrella.h",
 			);
 			name = "Copy generated compatibility header";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/ReSwiftThunk-Core-ExpectThunk-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/ReSwift-umbrella.h",
 				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk-Core-ExpectThunk.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk-Core-ExpectThunk-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwift/ReSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwift/ReSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
-		CCA43917EAACE742ADD1E35EE9BC490C /* Copy generated compatibility header */ = {
+		B44ECB7D7E63FB73BB35F2A0BFDDBB28 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -654,322 +541,249 @@
 			);
 			inputPaths = (
 				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/ReSwift/ReSwift-library.modulemap",
-				"${PODS_ROOT}/Headers/Public/ReSwift/ReSwift-library-umbrella.h",
+				"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk.modulemap",
+				"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk-umbrella.h",
 			);
 			name = "Copy generated compatibility header";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/ReSwift-library-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/ReSwiftThunk-umbrella.h",
 				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwift/ReSwift-library.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwift/ReSwift-library-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		E13F935F89E9BFA9D89F03CC06046E5D /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk.default-ExpectThunk.modulemap",
+				"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk.default-ExpectThunk-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ReSwiftThunk.default-ExpectThunk-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk.default-ExpectThunk.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ReSwiftThunk/ReSwiftThunk.default-ExpectThunk-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		283BE19B597CF685BF1C221DC0692051 /* Sources */ = {
+		2E3DEFA2D4F55A9D877CBAC5E1C75847 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49EED4896EB672D64837E18683862FCE /* createThunksMiddleware.swift in Sources */,
-				0CEC7E7A3F0B39D3B072C744CB6BB9A7 /* ExpectThunk.swift in Sources */,
-				4E78DC93BE7E5D02AC5336632128AACB /* ReSwiftThunk-Core-ExpectThunk-dummy.m in Sources */,
-				74C4969AB95DB26B68EB9714DD511445 /* Thunk.swift in Sources */,
+				4082F4118E16AD6D31F3A81FA9CA08DD /* Action.swift in Sources */,
+				B8F5EA67ED00E49F1F8506FC3E705B63 /* Assertions.swift in Sources */,
+				B65CC4ED8DD07D53E6A262C0BB884E7B /* Coding.swift in Sources */,
+				1F7CA5702A9A671839404EDEFDCB2D6A /* DispatchingStoreType.swift in Sources */,
+				147B4D064EB32EFC0B547D840C83DD7B /* Middleware.swift in Sources */,
+				D34B5DA9FEBE5D9A8CC13C1886198AD9 /* Reducer.swift in Sources */,
+				18031F5C0CE3B1EEFBAB875693203A4E /* ReSwift-dummy.m in Sources */,
+				4A4FFE6075EE3274A3B11F9309BE6F31 /* State.swift in Sources */,
+				8B3CFDDDAE18B4FB8C15FAD27A955A74 /* Store.swift in Sources */,
+				6E60902B8BEF06FEC1818EE04C8DC5E0 /* StoreSubscriber.swift in Sources */,
+				C81F00D85E025410DBD733E7C80FC86E /* StoreType.swift in Sources */,
+				0D3FC866F97656CFF2ABF7F4ADF590C8 /* Subscription.swift in Sources */,
+				70240565EE2C420C02083921C2568ADE /* TypeHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86772C7FEB7370FE8E3D4CE29D23E2D7 /* Sources */ = {
+		622E74A433B0D66748BD6F7F1CD7241E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BA8E37469BBF22A053867160E1A411 /* Pods-ExpectThunkDemoTests-dummy.m in Sources */,
+				678E82FB078F32B0AA56A579710C2E76 /* createThunksMiddleware.swift in Sources */,
+				DADDEF5AD38E35FCE660542DB1808B88 /* ReSwiftThunk-dummy.m in Sources */,
+				C464B3CA92D2BFAEA829E8DD7B654C1F /* Thunk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2E70D5BD050A641D421D934355FAC53 /* Sources */ = {
+		716E2CC58DA6EED837380F675847B5A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11326916346C23C462C8EAF8B8FD53A8 /* Action.swift in Sources */,
-				3153D0F4C9615ADA10621F630263FAF7 /* Assertions.swift in Sources */,
-				4EDD858308FF6EB5687E2C075C423C59 /* Coding.swift in Sources */,
-				64E96FBFA5D8245E37AD8704007BBF79 /* DispatchingStoreType.swift in Sources */,
-				B2FEAC488BBC82EC8B9A02FCD8E674A5 /* Middleware.swift in Sources */,
-				5C8E414DFCF4B94A33728FE078D77720 /* Reducer.swift in Sources */,
-				84F9A068E1B08A30CFB095DF11713C2C /* ReSwift-library-dummy.m in Sources */,
-				BBE907CCB5C5A380C4955BB6122EB657 /* State.swift in Sources */,
-				2CBBC73F25ACB2DF82228F87B4BE2E0C /* Store.swift in Sources */,
-				02B55B55C22DF7CB5F38A6E6D8DB8C45 /* StoreSubscriber.swift in Sources */,
-				C00D354E5C6DA0BE28A8B3249055F53A /* StoreType.swift in Sources */,
-				E186BA8EACA3CB9718AD648BED89F6F2 /* Subscription.swift in Sources */,
-				2DCED3CA53339EC8B866E06FD842F7BE /* TypeHelper.swift in Sources */,
+				CB29CE39FEAAE9519F1C126E3F0F0B48 /* createThunksMiddleware.swift in Sources */,
+				BDD8AF97F89DB44F496562B4A74FC534 /* ExpectThunk.swift in Sources */,
+				8E4A508FCDEF33655337F391F47AA489 /* ReSwiftThunk.default-ExpectThunk-dummy.m in Sources */,
+				9854AA028D75C43106CC89B6F4A9CF1B /* Thunk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF88B9356144996FF614922B7144BF25 /* Sources */ = {
+		BED3D5ABE0A2E30A5E32B99472EBC70C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9344161AF4A0725F8499D01F4FD736 /* createThunksMiddleware.swift in Sources */,
-				33026BB4A11E644F3DBDC05141C96474 /* ReSwiftThunk-dummy.m in Sources */,
-				575B8CE827C86B9E202A529115D971DC /* Thunk.swift in Sources */,
+				DB04836344C2C99A10B3F2E11C8C6899 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CED09FF318D7A0D39D90FC66236216CE /* Sources */ = {
+		F6C22B22743A865E31A6B3A65DF675A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D922B1D23C0A9EDAC93CC941E106772D /* Action.swift in Sources */,
-				EF28955E13F88750BB3A8A89B21DF40B /* Assertions.swift in Sources */,
-				0FD7BEC0F08DD3B745BB8D1F373D28F8 /* Coding.swift in Sources */,
-				5A2B8FA80FA7DF263103FF4906565A75 /* DispatchingStoreType.swift in Sources */,
-				5159273A8380F6A1B082B7A74597768E /* Middleware.swift in Sources */,
-				92271F9264CF0B6299CD8FF17DF94272 /* Reducer.swift in Sources */,
-				43E3D3269B5FFE05E6CD1037A3F0F7EC /* ReSwift-framework-dummy.m in Sources */,
-				0DCCDC553C0FA2121FA213C257C78D05 /* State.swift in Sources */,
-				3B48AFEAC02DD781767619F9D30DE681 /* Store.swift in Sources */,
-				4BF897A97C56E37208B0E6D7ED01B4C9 /* StoreSubscriber.swift in Sources */,
-				AF68CB53EC933461274CA089A3B2645D /* StoreType.swift in Sources */,
-				3F3AC33263A1FFC76DB858D90778A36E /* Subscription.swift in Sources */,
-				219C7A341DC7C67F57A2FE48BAE724DC /* TypeHelper.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEE8E05860033C9AC64B44566526ABB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9A9DE742A32E3AE92B484E95AB58627 /* Pods-ExpectThunkDemo-dummy.m in Sources */,
+				FA0604374F327B3CE5177CB91840F6AE /* Pods-ExpectThunkDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10903296F84B36030EAFF6328A4C6D6A /* PBXTargetDependency */ = {
+		2393B930B582BE1D74ED3185812E47F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "ReSwift-framework";
-			target = 672AA3A841EEDBF9F43A7E18AF7DDF09 /* ReSwift-framework */;
-			targetProxy = A033E6BF8991A5D382C359A957E43C94 /* PBXContainerItemProxy */;
+			name = ReSwift;
+			target = 24C2DD33D4191B82E95211DC0212213B /* ReSwift */;
+			targetProxy = 6FB543912017E883D919883D640C3407 /* PBXContainerItemProxy */;
 		};
-		292C9F07F0B3649BE9925B5E9B716B81 /* PBXTargetDependency */ = {
+		6EBE2FE4B1BA23F60A129D8059DCEDD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReSwift;
+			target = 24C2DD33D4191B82E95211DC0212213B /* ReSwift */;
+			targetProxy = 569F63013E6B5DB2473A4D6CC22016D9 /* PBXContainerItemProxy */;
+		};
+		A23AB773D8F2DD9A89D3467473813742 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReSwiftThunk;
-			target = 85FA641846F55BCDB01D41F003E20105 /* ReSwiftThunk */;
-			targetProxy = 4E933CBFD31A8C3B6FF45BDC29F38CF4 /* PBXContainerItemProxy */;
+			target = 0DAD9D2E2D5C63CC4A627E8A1D037ECD /* ReSwiftThunk */;
+			targetProxy = 15CBE242A3EBC30CBAC4E766B2FFE8F9 /* PBXContainerItemProxy */;
 		};
-		8A570A4A5E4A5983C7686CCEAB69F244 /* PBXTargetDependency */ = {
+		A6C8CFE3F6988E67BAD97599FD643423 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "ReSwift-library";
-			target = 72E5606B60604DFCAE0BE93260BC3493 /* ReSwift-library */;
-			targetProxy = EF583DF57A64EDCBCD223EC37B045FAE /* PBXContainerItemProxy */;
+			name = ReSwift;
+			target = 24C2DD33D4191B82E95211DC0212213B /* ReSwift */;
+			targetProxy = 1444D75ED51B0E1019F9E2774CEAD347 /* PBXContainerItemProxy */;
 		};
-		B7A245C1F1C4F48A87CC5836EB06177E /* PBXTargetDependency */ = {
+		D1D66E1B46A383AF64F77347BA532E8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "ReSwift-library";
-			target = 72E5606B60604DFCAE0BE93260BC3493 /* ReSwift-library */;
-			targetProxy = 95DA7D9B636F2E3C3B0D39845957ADBD /* PBXContainerItemProxy */;
+			name = ReSwift;
+			target = 24C2DD33D4191B82E95211DC0212213B /* ReSwift */;
+			targetProxy = 9FB84257A95C9CDEB48A072E6842AE02 /* PBXContainerItemProxy */;
 		};
-		BA7B31FAA127C1CFE9A0C9A8D965A317 /* PBXTargetDependency */ = {
+		EE2E7E14BA9C83AAC6175401F3E7B727 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "ReSwift-framework";
-			target = 672AA3A841EEDBF9F43A7E18AF7DDF09 /* ReSwift-framework */;
-			targetProxy = 00792A937E60A4C9EE6A8F83011CA6F7 /* PBXContainerItemProxy */;
-		};
-		C377E4DA6C81E515752A720112A0CAD4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ReSwiftThunk-Core-ExpectThunk";
-			target = 4269A39A4EAE9AABEDD82DF176EC9331 /* ReSwiftThunk-Core-ExpectThunk */;
-			targetProxy = 5798DD3CBF5612E48C42ECB8993245E5 /* PBXContainerItemProxy */;
+			name = "ReSwiftThunk.default-ExpectThunk";
+			target = 1DDE81F4166900D5B4F84241E76E9208 /* ReSwiftThunk.default-ExpectThunk */;
+			targetProxy = 0EB5D97D90133BEC37F98298E82FD7DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E3B044BBAF93594BA2917257AF88985 /* Debug */ = {
+		00DE717FF5E789536C60B86E9CE39EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5457A2B6287E8ECC26837BEA7DBBDD22 /* ReSwift-library.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ReSwift-library/ReSwift-library-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = "Headers/Public/ReSwift/ReSwift-library.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ReSwift;
-				PRODUCT_NAME = "ReSwift-library";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		12628484A3BE02874C5D7BC9912C3BCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFDF3D278426A1B11F74DD664A668C6F /* ReSwiftThunk-Core-ExpectThunk.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ReSwiftThunk-Core-ExpectThunk/ReSwiftThunk-Core-ExpectThunk-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = "Headers/Public/ReSwiftThunk/ReSwiftThunk-Core-ExpectThunk.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ReSwiftThunk;
-				PRODUCT_NAME = "ReSwiftThunk-Core-ExpectThunk";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1D3FC06CAC057866C51C7269CDDEB3D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B5CA5452A17738864CA528526DF579 /* ReSwift-framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReSwift-framework/ReSwift-framework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReSwift-framework/ReSwift-framework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ReSwift-framework/ReSwift-framework.modulemap";
-				PRODUCT_MODULE_NAME = ReSwift;
-				PRODUCT_NAME = ReSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3219595260DF84A0BDF68764DE41BBC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFDF3D278426A1B11F74DD664A668C6F /* ReSwiftThunk-Core-ExpectThunk.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ReSwiftThunk-Core-ExpectThunk/ReSwiftThunk-Core-ExpectThunk-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = "Headers/Public/ReSwiftThunk/ReSwiftThunk-Core-ExpectThunk.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ReSwiftThunk;
-				PRODUCT_NAME = "ReSwiftThunk-Core-ExpectThunk";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4D3DAB1CDED5B2E1E86036AEC50289F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5457A2B6287E8ECC26837BEA7DBBDD22 /* ReSwift-library.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ReSwift-library/ReSwift-library-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = "Headers/Public/ReSwift/ReSwift-library.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ReSwift;
-				PRODUCT_NAME = "ReSwift-library";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		78A1398C04A2C64086F620CD183E4FD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52C4880E3E637409EFB6AA834F0FC695 /* Pods-ExpectThunkDemo.debug.xcconfig */;
+			baseConfigurationReference = 009D4E182FF9635281A1275766A9BC6F /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ExpectThunkDemo/Pods-ExpectThunkDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExpectThunkDemo-ExpectThunkDemoTests/Pods-ExpectThunkDemo-ExpectThunkDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F6E2633B3891FCF970FCB738E05CB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A976A1310F46FA104E6B3B862B4AB7DB /* ReSwiftThunk.default-ExpectThunk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwiftThunk.default-ExpectThunk/ReSwiftThunk.default-ExpectThunk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/ReSwiftThunk/ReSwiftThunk.default-ExpectThunk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ReSwiftThunk;
+				PRODUCT_NAME = "ReSwiftThunk.default-ExpectThunk";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A41FE594115508CABEC7A60A20EB22C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EE6F1CE5DBB25C177ACD18F67D1C30 /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ReSwift/ReSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E5B1289ABC5B6E924A018CAA262CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080F0C067A47324A7F060CA11385227E /* Pods-ExpectThunkDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExpectThunkDemo/Pods-ExpectThunkDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		7ABA9075C38838CB00B4B8E5F7B96EFA /* Release */ = {
+		66887D7D4D1AB698FB10606C3A809C8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F65F88686FA422F207995A4B464567D /* Pods-ExpectThunkDemoTests.release.xcconfig */;
+			baseConfigurationReference = F637C4D7CFFDCBE16A3D261771F63E47 /* Pods-ExpectThunkDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -979,127 +793,91 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ExpectThunkDemoTests/Pods-ExpectThunkDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7C15F8A20BD4A2D0FB6C5F3E7FCF34B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA10B50797F950AA69971BBF09A887AA /* Pods-ExpectThunkDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ExpectThunkDemo/Pods-ExpectThunkDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ExpectThunkDemo/Pods-ExpectThunkDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		748AF2762FB2C0BB692502598226DAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1114A5674F22B33FD447BABBF33F7157 /* Pods-ExpectThunkDemo-ExpectThunkDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExpectThunkDemo-ExpectThunkDemoTests/Pods-ExpectThunkDemo-ExpectThunkDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7DAECAEC46A8194C6A98BCD495E9C0A0 /* Debug */ = {
+		7DB03C5659A837717EF65222AE722EDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59B5CA5452A17738864CA528526DF579 /* ReSwift-framework.xcconfig */;
+			baseConfigurationReference = 7D049BE40D512AB5A7DD4DD38804E4B9 /* ReSwiftThunk.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReSwift-framework/ReSwift-framework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReSwift-framework/ReSwift-framework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ReSwift-framework/ReSwift-framework.modulemap";
-				PRODUCT_MODULE_NAME = ReSwift;
-				PRODUCT_NAME = ReSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7FA71FCEDD8743E6FC70BC2FABD99EE7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20E70950DD0F2261210A104BCFCB079D /* ReSwiftThunk.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ReSwiftThunk/ReSwiftThunk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReSwiftThunk/ReSwiftThunk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ReSwiftThunk/ReSwiftThunk.modulemap";
+				MODULEMAP_FILE = Headers/Public/ReSwiftThunk/ReSwiftThunk.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = ReSwiftThunk;
 				PRODUCT_NAME = ReSwiftThunk;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		93EC01E3FD9CAE4E8CA4223B24DFE996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D049BE40D512AB5A7DD4DD38804E4B9 /* ReSwiftThunk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwiftThunk/ReSwiftThunk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ReSwiftThunk/ReSwiftThunk.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ReSwiftThunk;
+				PRODUCT_NAME = ReSwiftThunk;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1160,6 +938,56 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		B0B26548195C0AB721F89AB37E1D1750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A976A1310F46FA104E6B3B862B4AB7DB /* ReSwiftThunk.default-ExpectThunk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwiftThunk.default-ExpectThunk/ReSwiftThunk.default-ExpectThunk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = "Headers/Public/ReSwiftThunk/ReSwiftThunk.default-ExpectThunk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ReSwiftThunk;
+				PRODUCT_NAME = "ReSwiftThunk.default-ExpectThunk";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1993FFA20DB5BF46A9D3021857232C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EE6F1CE5DBB25C177ACD18F67D1C30 /* ReSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ReSwift/ReSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ReSwift/ReSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ReSwift;
+				PRODUCT_NAME = ReSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1225,76 +1053,9 @@
 			};
 			name = Debug;
 		};
-		C3614947EFFF62536C858F5F1EE78B08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 706C09DCBE59DD3F63E4AFBD797DEA28 /* Pods-ExpectThunkDemoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ExpectThunkDemoTests/Pods-ExpectThunkDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E804F07C9CED93FCB637A8A12AACAAD6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20E70950DD0F2261210A104BCFCB079D /* ReSwiftThunk.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReSwiftThunk/ReSwiftThunk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReSwiftThunk/ReSwiftThunk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ReSwiftThunk/ReSwiftThunk.modulemap";
-				PRODUCT_MODULE_NAME = ReSwiftThunk;
-				PRODUCT_NAME = ReSwiftThunk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E4CA21291E15A5319E3CA6B48284C10 /* Build configuration list for PBXNativeTarget "ReSwift-framework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DAECAEC46A8194C6A98BCD495E9C0A0 /* Debug */,
-				1D3FC06CAC057866C51C7269CDDEB3D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1304,47 +1065,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		622AA47EF2C9F9239ADDD01DFAAC3AF6 /* Build configuration list for PBXNativeTarget "ReSwiftThunk-Core-ExpectThunk" */ = {
+		5B3080D795734E730931365B31793229 /* Build configuration list for PBXNativeTarget "Pods-ExpectThunkDemo-ExpectThunkDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12628484A3BE02874C5D7BC9912C3BCE /* Debug */,
-				3219595260DF84A0BDF68764DE41BBC7 /* Release */,
+				00DE717FF5E789536C60B86E9CE39EF1 /* Debug */,
+				748AF2762FB2C0BB692502598226DAFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FF918B6579283CD150D9302938312F3 /* Build configuration list for PBXNativeTarget "ReSwiftThunk" */ = {
+		5D4CFD1823FA9C48627A85E3E2079682 /* Build configuration list for PBXNativeTarget "ReSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E804F07C9CED93FCB637A8A12AACAAD6 /* Debug */,
-				7FA71FCEDD8743E6FC70BC2FABD99EE7 /* Release */,
+				BD1993FFA20DB5BF46A9D3021857232C /* Debug */,
+				3A41FE594115508CABEC7A60A20EB22C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF33CDF962B68DDE49E961AB84DEA84D /* Build configuration list for PBXNativeTarget "Pods-ExpectThunkDemo" */ = {
+		A0E899B24F6195D73822E2530F27C2C9 /* Build configuration list for PBXNativeTarget "ReSwiftThunk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78A1398C04A2C64086F620CD183E4FD9 /* Debug */,
-				7C15F8A20BD4A2D0FB6C5F3E7FCF34B6 /* Release */,
+				93EC01E3FD9CAE4E8CA4223B24DFE996 /* Debug */,
+				7DB03C5659A837717EF65222AE722EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB81CBB8567D170C9307A4D6C375E971 /* Build configuration list for PBXNativeTarget "ReSwift-library" */ = {
+		EBA4D64B5381CD939E5F2BB6E9C73F3C /* Build configuration list for PBXNativeTarget "ReSwiftThunk.default-ExpectThunk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E3B044BBAF93594BA2917257AF88985 /* Debug */,
-				4D3DAB1CDED5B2E1E86036AEC50289F4 /* Release */,
+				B0B26548195C0AB721F89AB37E1D1750 /* Debug */,
+				1F6E2633B3891FCF970FCB738E05CB03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4921DEFB42C8121082B9518E9905AC6 /* Build configuration list for PBXNativeTarget "Pods-ExpectThunkDemoTests" */ = {
+		EEDCE514372EC139D8BAC9A9F05A199B /* Build configuration list for PBXNativeTarget "Pods-ExpectThunkDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3614947EFFF62536C858F5F1EE78B08 /* Debug */,
-				7ABA9075C38838CB00B4B8E5F7B96EFA /* Release */,
+				66887D7D4D1AB698FB10606C3A809C8F /* Debug */,
+				55E5B1289ABC5B6E924A018CAA262CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
