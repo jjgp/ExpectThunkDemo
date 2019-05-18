@@ -12,9 +12,9 @@ import ReSwiftThunk
 @testable import ExpectThunkDemo
 
 class ExpectThunkDemoTests: XCTestCase {
-
+    
     func testExpectThunk() {
-        let expect = ExpectThunk(thunk)
+        ExpectThunk(thunk)
             .getsState(FakeState())
             .dispatches(FakeAction())
             .getsState(FakeState())
@@ -22,8 +22,21 @@ class ExpectThunkDemoTests: XCTestCase {
                 XCTAssert($0 as? FakeAction == FakeAction())
             }
             .dispatches(AnotherFakeAction())
-            .run()
-        wait(for: [expect], timeout: 1.0)
+            .wait()
     }
-
+    
+    func testExpectThunkNeverHappened() {
+        ExpectThunk(thunk)
+            .getsState(FakeState())
+            .dispatches(FakeAction())
+            .getsState(FakeState())
+            .dispatches {
+                XCTAssert($0 as? FakeAction == FakeAction())
+            }
+            .dispatches(AnotherFakeAction())
+            // This never happened
+            .dispatches(AnotherFakeAction())
+            .wait()
+    }
+    
 }

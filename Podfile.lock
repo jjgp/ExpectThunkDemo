@@ -1,5 +1,5 @@
 PODS:
-  - ReSwift (4.0.1)
+  - ReSwift (4.1.1)
   - ReSwiftThunk (1.1.0):
     - ReSwift (~> 4.0)
     - ReSwiftThunk/Core (= 1.1.0)
@@ -24,13 +24,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ReSwiftThunk:
-    :commit: 063b055ecc148fe8bef61753befc8e6e38a204f1
+    :commit: 0922abe22332eded673b9e480575dce6572410f6
     :git: "git@github.com:jjgp/ReSwift-Thunk.git"
 
 SPEC CHECKSUMS:
-  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  ReSwift: d925be0033558f55bd73d92869961230dfe19d52
   ReSwiftThunk: 455a8144fe778fb35c5c04c4d8e58c8f6d155ee2
 
 PODFILE CHECKSUM: c0723c8784fec7fc7d3b554d7b002227dc11e605
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
